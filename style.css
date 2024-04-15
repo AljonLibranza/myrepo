@@ -1,10 +1,14 @@
-body{
-  margin: 0;
-  padding: 0;
-  background: url(bg.png) no-repeat;
-  background-size: cover;
-  height: scale(0.3);
-  width: scale(0.3);
+.body{
+    margin: 0;
+    background: url(bg.png);
+    background-size: cover;
+    height: 906px;
+    width: 633px;
+    transform: scale(0.2);
+    transform-origin: 0 0;
+    position: absolute;
+    top: 5%;
+    left: 25%;
 }
 .box{
   width: 4000px;
