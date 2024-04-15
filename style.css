@@ -2,10 +2,10 @@ body{
     margin: 10%;
     background: url(bg.png);
     background-size: cover;
-    transform: scale(0.5);
+    transform: scale(0.4);
     transform-origin: 0 0;
     position: absolute;
-    width: 2000px;
+    width: 2500px;
 }
 .box{
   background: rgba(0,0,0,0.4);
