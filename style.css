@@ -3,6 +3,8 @@ body{
   padding: 0;
   background: url(bg.png) no-repeat;
   background-size: cover;
+  transform: scale(0.1); /* Decrease the size to 10% */
+  transform-origin: 0 0; /* Set the transformation origin to top-left */
 }
 .box{
   width: 4000px;
