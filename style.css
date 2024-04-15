@@ -2,7 +2,7 @@ body{
     margin: 10%;
     background: url(bg.png);
     background-size: cover;
-    transform: scale(0.3);
+    transform: scale(0.5);
     transform-origin: 0 0;
     position: absolute;
     width: 2000px;
