@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(bg.png) no-repeat;
+  background-size: cover;
+}
+.box{
+  width: 4000px;
+  height: 5000px;
+  background: rgba(0,0,0,0.4);
+  padding: 75px;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 750px;
+  height: 750px;
+}
+.box h1{
+  font-size: 150px;
+  letter-spacing: 20px;
+  font-weight: 10;
+}
+.box h5{
+  font-size: 75px;
+  letter-spacing: 15px;
+  font-weight: 10;
+}
+.box p{
+  text-align: justify;
+  font-size: 50px;
+  letter-spacing: 15px;
+  font-weight: 10;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 30px;
+  list-style: none;
+  text-decoration: none;
+}
+.box li img{
+  height: 250px;
+}
+.box li link{
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+.box h3{
+  text-align: justify;
+  font-size: 100px;
+  letter-spacing: 30px;
+  font-weight: 20;
+}
+.row {
+  padding: 0 15px;
+}
+
+@media (min-width: 500px) {
+  .column{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .box div{
+    text-align: justify;
+    font-size: 50px;
+    letter-spacing: 15px;
+    font-weight: 10;
+}
+  .box h2{
+    text-align: justify;
+    font-size:100px;
+    letter-spacing: 30px
+    font-weight: 20;
+}
+.rows{
+  padding: 0 15px;
+}
+@media (min-width:500px){
+  .column{
+    dispaly:grid;
+    grid-template-columns:auto ;
+  }
+.box div2{
+  text-align: justify;
+  font-size: 50px;
+  letter-spacing: 15px;
+  font-weight: 10;
+  }
