@@ -2,7 +2,8 @@ body{
   margin: 0;
   padding: 0;
   background: url(bg.png) no-repeat;
-  background-size: scale(0.1);
+  background-size: cover;
+  transform: scale(0.5);
 }
 .box{
   width: 4000px;
