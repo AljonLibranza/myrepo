@@ -1,15 +1,11 @@
 body{
-    margin: 0;
+    margin: 15px;
     background: url(bg.png);
     background-size: cover;
-    height: 906px;
-    width: 633px;
-    transform: scale(0.2);
+    transform: scale(0.3);
     transform-origin: 0 0;
     position: absolute;
-    top: 5%;
-    left: 15%;
-    right: 15%
+    width: 4175px;
 }
 .box{
   background: rgba(0,0,0,0.4);
