@@ -3,7 +3,7 @@ body{
   padding: 0;
   background: url(bg.png) no-repeat;
   background-size: scale(0.5);
-  transform: scale(0.5);
+  transform: scale(0.8);
 }
 .box{
   width: 4000px;
