@@ -5,7 +5,7 @@ body{
     transform: scale(0.3);
     transform-origin: 0 0;
     position: absolute;
-    width: 4150px;
+    width: 4125px;
 }
 .box{
   background: rgba(0,0,0,0.4);
