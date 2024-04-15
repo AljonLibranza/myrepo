@@ -8,11 +8,10 @@ body{
     transform-origin: 0 0;
     position: absolute;
     top: 5%;
-    left: 25%;
+    left: 15%;
+    right: 15%
 }
 .box{
-  width: 4000px;
-  height: 5000px;
   background: rgba(0,0,0,0.4);
   padding: 75px;
   text-align: center;
